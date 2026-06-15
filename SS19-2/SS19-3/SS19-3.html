@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="./SS19-3.css">
+
+    <!-- Font Awesome cho icon mắt -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="login-box">
+
+            <h1>Login</h1>
+
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email"
+                    id="email"
+                    placeholder="Enter your email address">
+            </div>
+
+            <div class="form-group">
+                <label>Password:</label>
+
+                <div class="password-wrapper">
+                    <input type="password"
+                        id="password"
+                        placeholder="Enter your password">
+
+                    <i class="fa-solid fa-eye"
+                        id="togglePassword"></i>
+                </div>
+            </div>
+
+            <div class="remember">
+                <input type="checkbox" id="rememberMe">
+                <label for="rememberMe">
+                    Ghi nhớ tài khoản trong 24 giờ
+                </label>
+            </div>
+
+            <button id="loginBtn">
+                Login
+            </button>
+
+            <p id="message"></p>
+
+            <div class="links">
+                <a href="#">Forgot password?</a>
+                <span>or</span>
+                <a href="#">SignUp</a>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="./SS19-3.js"></script>
+
+</body>
+</html>
