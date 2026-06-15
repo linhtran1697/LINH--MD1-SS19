@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark App</title>
+
+    <link rel="stylesheet" href="./SS19-5.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <button id="openModalBtn" class="add-btn">
+            ADD BOOKMARK
+        </button>
+
+        <div id="bookmarkList" class="bookmark-list">
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h2>Add Bookmark</h2>
+                <span id="closeBtn">&times;</span>
+            </div>
+
+            <div class="modal-body">
+
+                <label>Website Name</label>
+                <input
+                    type="text"
+                    id="siteName">
+
+                <label>Website URL</label>
+                <input
+                    type="text"
+                    id="siteURL"
+                    placeholder="https://example.com">
+
+                <button id="saveBtn">
+                    Save
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="./SS19-5.js"></script>
+
+</body>
+</html>
